@@ -1,0 +1,135 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "seller": [
+    {
+      "name": "Abhi",
+      "password": "1234",
+      "email": "abhi@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Vbhi",
+      "password": "1234",
+      "email": "vbhi@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "abhishal",
+      "password": "1234",
+      "email": "abhishal@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "vishbhi",
+      "password": "1234",
+      "email": "vishbhi@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "anila",
+      "password": "1234",
+      "email": "anila@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "anil",
+      "password": "1234",
+      "email": "anil@test.com",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "name": "iphone 14",
+      "price": "100000",
+      "category": "mobile",
+      "color": "black",
+      "description": "Much Expensive Such Good",
+      "image": "https://m.media-amazon.com/images/I/61XO4bORHUL._SL1500_.jpg",
+      "id": 1
+    },
+    {
+      "name": "Samsung m40 a",
+      "price": "14999",
+      "color": "blue",
+      "category": "mobile",
+      "description": "its a mobile",
+      "image": "https://5.imimg.com/data5/EZ/BB/SI/SELLER-92529419/samsung-galaxy-m40-midnight-blue-phone-1000x1000.jpg",
+      "id": 2
+    },
+    {
+      "name": "OnePlus Nord CE 2 ",
+      "price": "18999",
+      "color": "blue",
+      "category": "mobile",
+      "description": "oneplus nord phone",
+      "image": "https://m.media-amazon.com/images/I/71AvQd3VzqL._SX679_.jpg",
+      "id": 3
+    },
+    {
+      "name": "realme narzo 50 5G",
+      "price": "16999",
+      "color": "blue",
+      "category": "mobile",
+      "description": "its a mobile",
+      "image": "https://m.media-amazon.com/images/I/91p5L+GitZL._SX679_.jpg",
+      "id": 4
+    },
+    {
+      "name": "Samsung Galaxy S20 FE 5G",
+      "price": "34,990",
+      "color": "Cloud Navy",
+      "category": "mobile",
+      "description": "its a mobile",
+      "image": "https://m.media-amazon.com/images/I/81vDZyJQ-4L._SY879_.jpg",
+      "id": 5
+    }
+  ],
+  "user": [
+    {
+      "name": "abhi",
+      "email": "abhi@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "name": "abhishal",
+      "email": "abhishal@gmail.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "name": "peter",
+      "email": "peter@gmail.com",
+      "password": "1234",
+      "id": 3
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "email": "abhi@gmail.com",
+      "contact": "1234",
+      "address": "xyz",
+      "totalPrice": 519099,
+      "userId": 1,
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<div class="my-orders">
+  <h1>My Orders</h1>
+  <div class="row">
+    <div class="col-sm-2">
+      <span>Order</span>
+    </div>
+    <div class="col-sm-2">
+      <span>Order Id </span>
+    </div>
+    <div class="col-sm-2">
+      <span>Price</span>
+    </div>
+    <div class="col-sm-2">
+      <span>Status</span>
+    </div>
+    <div class="col-sm-2">
+      <span>Action</span>
+    </div>
+  </div>
+
+  <div class="row order-data" *ngFor="let order of orderData">
+    <div class="col-sm-2">
+      <span
+        ><img
+          class="order-img"
+          src="https://visualpharm.com/assets/749/Order%20On%20The%20Way-595b40b65ba036ed117d0afc.svg"
+          alt=""
+      /></span>
+    </div>
+    <div class="col-sm-2">
+      <span>{{ order.id }} </span>
+    </div>
+    <div class="col-sm-2">
+      <span>{{ order.totalPrice }}</span>
+    </div>
+    <div class="col-sm-2">
+      <span>In Progress</span>
+    </div>
+    <div class="col-sm-2">
+      <span
+        ><button class="form-button" (click)="cancelOrder(order.id)">
+          Cancel Order
+        </button></span
+      >
+    </div>
+  </div>
+</div>
